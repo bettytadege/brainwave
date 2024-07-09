@@ -8,13 +8,12 @@ function ChatList() {
   return (
    <>
    <div className="">
-    <div className="flex text-[#6D7275] items-center mx-8 gap-4">
-    <IoIosArrowDown />
-    <p className='text-sm'>Chat List</p>
+    <div className="flex text-[#6D7275] items-center mx-8 gap-4 group">
+    <IoIosArrowDown className='group-hover:text-white'/>
+    <p className='text-sm group-hover:text-white'>Chat List</p>
     </div>
     <div className="pt-2">
     <Card 
-    
     icon={<BiSolidSquareRounded color='grey' size={15}/>}
     text='Welcome'
      notification='48'/>

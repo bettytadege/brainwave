@@ -1,7 +1,7 @@
-import React from 'react'
-import Logo from './Logo'
-import Card from './Card'
-import { BsChatLeftText } from 'react-icons/bs'
+import React from 'react';
+import Logo from './Logo';
+import Card from './Card';
+import { BsChatLeftText } from 'react-icons/bs';
 import { FiSettings } from 'react-icons/fi';
 import { TbTextScan2 } from 'react-icons/tb';
 import { GoCreditCard, GoSearch } from 'react-icons/go';
@@ -12,13 +12,12 @@ import { IoIosArrowDown } from 'react-icons/io';
 import LightDarkMode from './LightDarkMode';
 import ProfileCard from './ProfileCard';
 
-
 function Left() {
   return (
-    <div className="bg-[#141718] w-[25%] pt-4 ">
-      <div className="">
-        <Logo />
-        <div className="pt-10">
+    <div className="bg-[#141718] w-[25%] pt-4 flex flex-col h-screen">
+      <Logo />
+      <div className=" overflow-y-scroll h-[60%] hidescrollbar ">
+        <div className="">
           <Card
             text="Chats"
             icon={<BsChatLeftText color="#3E90F0" size={20} />}
@@ -34,27 +33,23 @@ function Left() {
             icon={<GoCreditCard color="#A87496" size={20} />}
           />
           <Card
-            text="Updates & FQA"
+            text="Updates & FAQ"
             icon={<TbTextScan2 color="#B94419" size={20} />}
           />
           <Card
-            text="Setting"
+            text="Settings"
             icon={<FiSettings color="#8E54EA" size={20} />}
           />
         </div>
-        <div className="border-b-[0.3px] border-[#6D7275]  pt-4"></div>
+        <div className="border-b-[0.3px] border-[#6D7275] pt-4"></div>
         <div className="pt-8">
           <ChatList />
         </div>
       </div>
-      <div className="">
-      <ProfileCard/>
-      </div>
-      <div className="">
-        <LightDarkMode/>
-      </div>
+      <ProfileCard />
+      <LightDarkMode />
     </div>
   );
 }
 
-export default Left
+export default Left;

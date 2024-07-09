@@ -11,15 +11,16 @@ function App() {
 
   return (
     <>
-       <div className="bg-[#141718] w-full h-full text-white">
+       <div className="bg-[#141718] w-full h-screen text-white">
 
-        <div className="flex max-w-[100%] mx-4">
+        <div className="flex max-w-[100%]  h-[100%] mx-8 ">
         <Left/>
-        
+         
         <Middle/>
         <Right/>
         </div>
-      </div>
+        </div>
+     
     </>
   )
 }

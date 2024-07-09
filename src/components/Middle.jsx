@@ -10,7 +10,9 @@ import Input from './Input';
 function Middle() {
   return (
     <>
-      <div className="bg-white w-[50%]  rounded-tl-lg rounded-bl-lg text-black">
+  
+      <div className="bg-white w-[50%] h-[100%] rounded-tl-lg rounded-bl-2xl text-black ">
+        <div className="overflow-y-scroll hidescrollbar scroll-smooth h-[90%]">
         <div className=" text-center pt-20">
           <h1 className="font-bold text-3xl text-black">
             Unlock the power of AI
@@ -41,8 +43,10 @@ function Middle() {
           text='Audio generation'
           icon={<RiMusic2Fill  color='#EB8C22'  size={23}/>}/>
         </div>
+        </div>
         <Input/>
       </div>
+     
     </>
   );
 }

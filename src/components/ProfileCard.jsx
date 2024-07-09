@@ -4,7 +4,7 @@ import profile from '../assets/IMG_7966-768x754.jpg'
 function ProfileCard() {
   return (
     <>
-      <div className="mx-2 pt-2">
+      <div className="mx-2 pt-10">
         <div className="bg-[#232627] rounded-lg  w-full h-full ">
           <div className=" flex items-center gap-2 mx-4 py-2">
             <div className="flex relative">
