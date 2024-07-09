@@ -1,6 +1,6 @@
 import React from 'react'
 import { CgNotifications } from 'react-icons/cg'
-import profile from '../assets/IMG_7966-768x754.jpg'
+import profile from '../../assets/IMG_7966-768x754.jpg'
 import Button from './Button'
 
 function ProfileBar() {

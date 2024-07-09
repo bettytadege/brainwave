@@ -1,11 +1,11 @@
 import React from 'react'
-import CardTwo from './CardTwo';
+import CardTwo from '../components/CardTwo';
 import { FaRegImage } from 'react-icons/fa';
 import { MdOutlinePlayCircleFilled } from 'react-icons/md';
 import { BsTrophyFill } from 'react-icons/bs';
 import { RiMusic2Fill } from 'react-icons/ri';
 import { FaCube } from 'react-icons/fa6';
-import Input from './Input';
+import Input from '../components/Input';
 
 function Middle() {
   return (

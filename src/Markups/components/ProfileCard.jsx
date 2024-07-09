@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import profile from '../assets/IMG_7966-768x754.jpg'
+import profile from '../../assets/IMG_7966-768x754.jpg'
 function ProfileCard() {
   return (
     <>

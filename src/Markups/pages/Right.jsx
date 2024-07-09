@@ -1,14 +1,14 @@
 import React from 'react'
-import ProfileBar from './ProfileBar'
-import Button from './Button'
+import ProfileBar from '../components/ProfileBar'
+import Button from '../components/Button'
 import { RiDeleteBin6Line } from 'react-icons/ri'
-import { FaRegSquare } from 'react-icons/fa6'
-import profile from '../assets/IMG_7966-768x754.jpg'
-import ChatHistory from './ChatHistory'
+
+import profile from '../../assets/IMG_7966-768x754.jpg'
+import ChatHistory from '../components/ChatHistory'
 import { FaPlus } from 'react-icons/fa'
-import img1 from '../assets/almas-salakhov-FUPjDC0BJfA-unsplash.jpg'
-import ChatHistoryTwo from './ChatHistoryTwo'
-import ChatProfile from './ChatProfile'
+import img1 from '../../assets/almas-salakhov-FUPjDC0BJfA-unsplash.jpg'
+import ChatHistoryTwo from '../components/ChatHistoryTwo'
+import ChatProfile from '../components/ChatProfile'
 function Right() {
   return (
     <div className='bg-[#F7F7F7] w-[25%]  rounded-r-2xl'>

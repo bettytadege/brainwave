@@ -1,16 +1,16 @@
 import React from 'react';
-import Logo from './Logo';
-import Card from './Card';
+import Logo from '../components/Logo';
+import Card from '../components/Card';
 import { BsChatLeftText } from 'react-icons/bs';
 import { FiSettings } from 'react-icons/fi';
 import { TbTextScan2 } from 'react-icons/tb';
 import { GoCreditCard, GoSearch } from 'react-icons/go';
 import { MdKeyboardCommandKey } from 'react-icons/md';
-import ChatList from './ChatList';
-import { IoIosArrowDown } from 'react-icons/io';
+import ChatList from '../components/ChatList';
+;
 
-import LightDarkMode from './LightDarkMode';
-import ProfileCard from './ProfileCard';
+import LightDarkMode from '../components/LightDarkMode';
+import ProfileCard from '../components/ProfileCard';
 
 function Left() {
   return (

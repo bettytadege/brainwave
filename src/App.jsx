@@ -1,10 +1,10 @@
-import { useState } from 'react'
+
 
 import './App.css'
 
-import Left from './components/Left'
-import Right from './components/Right'
-import Middle from './components/Middle'
+import Left from './Markups/pages/Left'
+import Right from './Markups/pages/Right'
+import Middle from './Markups/pages/Middle'
 
 function App() {
   
